@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+.navbar {
+  background-color: #333; /* Cor de fundo da barra de navegação */
+  color: #fff; /* Cor do texto na barra de navegação */
+  padding: 15px; /* Espaçamento interno para o conteúdo dentro da barra de navegação */
+  font-size: 18px; /* Tamanho da fonte */
+  font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Estilizando os links da barra de navegação */
+.navbar a {
+  text-decoration: none; /* Remover sublinhado dos links */
+  color: #fff; /* Cor do texto dos links */
+  margin: 0 10px; /* Espaçamento horizontal entre os links */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Alterar cor do link quando o mouse passar por cima */
+.navbar a:hover {
+  color: #ff7171; /* Cor do texto quando o mouse passa por cima */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Remove os indicadores de lista e alinha os itens horizontalmente */
+ul, ol {
+  list-style: none;
+  padding: 0; /* Remova qualquer preenchimento padrão da lista */
+  display: flex; /* Use um display flex para alinhar os itens horizontalmente */
 }
 
-.App-link {
-  color: #61dafb;
+/* Estilize os itens da lista (li) conforme necessário */
+li {
+  margin-right: 10px; /* Adicione espaço entre os itens */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-center{
+  padding-left: 580px;
+}
+
+#nav-perfil{
+  padding-left: 590px;
 }
