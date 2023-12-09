@@ -1,0 +1,245 @@
+.navbar {
+  background-color: #252525; /* Cor de fundo da barra de navegação */
+  color: #fff; /* Cor do texto na barra de navegação */
+  padding: 15px; /* Espaçamento interno para o conteúdo dentro da barra de navegação */
+  font-size: 18px; /* Tamanho da fonte */
+  font-weight: bold;
+}
+
+/* Estilizando os links da barra de navegação */
+.navbar a {
+  text-decoration: none; /* Remover sublinhado dos links */
+  color: #fff; /* Cor do texto dos links */
+  margin: 0 10px; /* Espaçamento horizontal entre os links */
+}
+
+/* Alterar cor do link quando o mouse passar por cima */
+.navbar a:hover {
+  color: #ff7171; /* Cor do texto quando o mouse passa por cima */
+}
+
+/* Remove os indicadores de lista e alinha os itens horizontalmente */
+ul, ol {
+  list-style: none;
+  padding: 0; /* Remova qualquer preenchimento padrão da lista */
+  display: flex; /* Use um display flex para alinhar os itens horizontalmente */
+}
+
+/* Estilize os itens da lista (li) conforme necessário */
+li {
+  margin-right: 10px; /* Adicione espaço entre os itens */
+}
+
+.nav-center{
+  padding-left: 580px;
+}
+
+#nav-perfil{
+  padding-left: 590px;
+}
+
+#nav-perfil-vender{
+  padding-left: 1334px;
+  font: bold;
+}
+
+.custom-container {
+  display: inline-block;
+  text-align: center;
+  margin-top: 120px;
+  padding: 50px;
+  background-color: #ffffff; /* Cor de fundo da barra de navegação */
+  border-radius: 7px;
+}
+
+/* Estilo para o título "Escolha o seu papel" */
+.custom-title {
+  font-size: 24px;
+  color: #000000;
+}
+
+/* Estilo para os rótulos dos botões de opção */
+.custom-label {
+  color: #000000;
+  font-weight: bold;
+  display: block;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.custom-label:hover{
+  color: rgba(0, 0, 0, 0.687);
+  cursor: pointer;
+}
+
+/* Estilo para os botões de opção */
+.custom-radio {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+/* Estilo para os botões de opção quando estão selecionados */
+.custom-radio:checked{
+  font-weight: bold;
+  color: #ff7171; /* Cor do texto quando o mouse passa por cima */
+}
+
+.custom-radio:hover{
+  cursor: pointer;
+}
+
+body{
+  background-color: #333;
+}
+
+#submitButton {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #ff7171; /* Cor da borda inicial */
+  border-radius: 5px; /* Borda levemente arredondada */
+  background-color: #ff4040; /* Cor de fundo inicial */
+  color: #000000; /* Cor do texto inicial */
+  transition: background-color 0.2s, color 0.2s; /* Adiciona uma transição suave de cor */
+}
+
+#submitButton:hover {
+  cursor: pointer;
+  background-color: #ff4e4e; /* Cor de fundo ao passar o mouse */
+  color: #fff; /* Cor do texto ao passar o mouse */
+}
+
+.titulo-perfil{
+  color: #fff;
+}
+
+.container-cadastro{
+  display: inline-block;
+  text-align: center;
+  margin-top: 120px;
+  padding: 50px;
+  background-color: #525252; /* Cor de fundo da barra de navegação */
+  border: 5px solid #ff7171; /* Cor do texto quando o mouse passa por cima */
+  border-radius: 5px;
+}
+
+.login-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.login-box label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.login-box button {
+  background-color: rgb(243, 75, 75);
+  color: #000000;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font: bold;
+  font-size: 16px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.login-box button:hover{
+  color: #ffffff;
+}
+
+.container{
+  margin-left: 633px;
+  
+}
+
+#cadastro{
+  color: rgb(0, 140, 255);
+}
+
+.btn-sair{
+  color: #ff7171;
+}
+
+.car-form-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o título */
+.car-form-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Estilo para os rótulos */
+.car-form-container label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+/* Estilo para os campos de entrada de texto */
+.car-form-container input[type="text"],
+.car-form-container input[type="number"],
+.car-form-container input[type="tel"],
+.car-form-container textarea,
+.car-form-container select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Estilo para o botão de envio */
+.car-form-container button {
+  width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Estilo para o botão de envio quando hover */
+.car-form-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo para organizar os elementos verticalmente em telas menores */
+@media (max-width: 600px) {
+  .car-form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  .car-form-container form input,
+  .car-form-container form select,
+  .car-form-container form textarea {
+    width: 100%;
+    margin-right: 0;
+  }
+}
